@@ -1,0 +1,89 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* Header Boxes - Matching Wireframe */
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+h1, h2 {
+    width: 90%;
+    border: 1px solid orange; /* Matching the orange wireframe lines */
+    padding: 15px;
+    text-align: center; /* Centered text requirement */
+    margin: 0;
+}
+
+/* Animal Display Area */
+#animal-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+    width: 100%;
+}
+
+.animal-box {
+    border: 1px solid orange;
+    padding: 10px;
+    text-align: center;
+}
+
+.animal-box img {
+    width: 200px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Controls (Reveal Buttons) */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: auto;
+    padding-bottom: 20px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    border: 1px solid orange;
+    background: white;
+    cursor: pointer;
+}
+
+/* Specific Active Style - Required for 10pts */
+.active-btn {
+    background-color: green !important;
+    color: white;
+    border-radius: 15px; /* Rounded border requirement */
+}
+
+/* Footer - Reset and Counter */
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    padding: 20px 0;
+}
+
+#reset-zoo {
+    padding: 10px;
+    border: 1px solid orange;
+}
+
+.counter-box {
+    border: 1px solid orange;
+    padding: 5px 15px;
+}

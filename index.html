@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animal Reveal UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the Interactive Reveal What's that Animal UI</h1>
+        <h2>Click on the buttons below to reveal the animal images</h2>
+    </header>
+
+    <div id="animal-container"></div>
+
+    <section class="controls">
+        <button id="btn-cat" onclick="revealAnimal('cat')">Reveal a CAT</button>
+        <button id="btn-dog" onclick="revealAnimal('dog')">Reveal a DOG</button>
+        <button id="btn-cow" onclick="revealAnimal('cow')">Reveal a COW</button>
+    </section>
+
+    <footer>
+        <button id="reset-zoo" onclick="resetZoo()">Reset Zoo</button>
+        <div class="counter-box">
+            <h3>Animals on screen: <span id="counter">0</span></h3>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
